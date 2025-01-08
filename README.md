@@ -61,7 +61,7 @@
 5. Authenticate and pull down a copy of your codes
 6. Then open Ageis authenticator, skip the initial startup
 7. Open Settings, 'Import & Export' -> 'Import from app' -> 'Authy'
-8. BAM! Your codes should now populate in Ageis, which isn't a peice of shit 2FA app, so either proceed happily OR export your 2FA tokens as .json, which can be imported to any other modern 2FA app, such as Bitwarden Authenticator or Ente
+8. BAM! Your codes should now populate in Ageis, which isn't a piece of shit 2FA app, so either proceed happily OR export your 2FA tokens as .json, which can be imported to any other modern 2FA app, such as Bitwarden Authenticator or Ente
 
 ### Goodbyes
 **Hopefully you've found these steps helpful. I sincerely hope that Authy goes under and the devs fuck themselves, this is an INSANE process to gain access to YOUR data.**
