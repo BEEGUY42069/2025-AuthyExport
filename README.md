@@ -1,5 +1,5 @@
 # How to Export 2FA Tokens From Authy
-## Requirements:
+### Requirements:
 - Rooted Android device
 	- In theory, these steps should also be applicable to a rooted Android emulator like Bluestacks, but I have not verified the accuracy of that hypothesis or if Authy has introduced some obscure security check to block emulators.
 - Google Account
@@ -17,14 +17,15 @@
 - Kitsune Build: 27001
 -----
 # Let's Get Started....
-#### 1 - Rooting
+### 1 - Rooting
 1. Root your device!
 	1. This is required because Authy has no native method to export 2FA codes, so we must use a third party app, in this case we'll be using 'Aegis Authenticator'. **If your device is not already rooted, please note that this step will erase your device!**
 	2. Use the Magisk method to root your device. This requires downloading a copy of your current build, extracting it's contents and transferring the boot.img file to your device, so that the Magisk apk can patch it.
 	3. You'll then have to transfer the image back to your local machine, unlock the bootloader, and then flash that patched image.
 	4. Here is the guide I followed: https://www.xda-developers.com/google-pixel-4-root-magisk/
 2. Boot your rooted device and uninstall the 'Magisk' app
-#### 2 - Kitsune Mask
+
+### 2 - Kitsune Mask
 1. Download and install Kitsune Mask: https://huskydg.github.io/magisk-files/
 2. Open the app and at the top you'll see 'Magisk' and an 'Install' button
 	1. Tap 'Install'
@@ -47,7 +48,8 @@
 	1. Aegis
 	2. Settings
 	3. System UI
-#### 3 - Passing Integrity Checks & Exporting
+
+### 3 - Passing Integrity Checks & Exporting
 1. Now open your system settings, go to apps, we have to clear several system packages to ensure your device passes integrity check, since Authy added a check to prevent these types of exports
 2. Clear all data for the following system packages - **Proceed with caution, I used a test device and not my daily driver**
 	1. Google Play Services
@@ -61,5 +63,5 @@
 7. Open Settings, 'Import & Export' -> 'Import from app' -> 'Authy'
 8. BAM! Your codes should now populate in Ageis, which isn't a peice of shit 2FA app, so either proceed happily OR export your 2FA tokens as .json, which can be imported to any other modern 2FA app, such as Bitwarden Authenticator or Ente
 
-
-**Hopefully you've found these steps helpful. I sincerely hope that Authy goes under and the devs fuck themselves, this is an INSANE process to gain access to YOUR data.** 
+### Goodbyes
+**Hopefully you've found these steps helpful. I sincerely hope that Authy goes under and the devs fuck themselves, this is an INSANE process to gain access to YOUR data.**
